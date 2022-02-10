@@ -1,0 +1,32 @@
+#Q1.Print the sum of series 13 + 23 + 33 + 43 + …….+ n3 till n-th term.
+n=int(input("enter a number "))
+sum=0 
+for i in range (n+1):
+  sum=sum+i*i*i
+print(sum)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q2.Given a positive integer N, The task is to write a Python program to check if the number is prime or not.
+n= int(input("enter a number "))
+if n>1:
+  for i in range(2,n):
+   if (n% i ==0):
+    print("not a prime number!")
+    break
+  else:
+   print("is a prime number!")
+else:
+  print("not a prime number!")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Q3.Program to print ASCII Value of a character
+c=input("enter a charachter ")
+m= ord(c)
+print("The ASCII value of {0} is {1}".format(c,m))
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+ 
